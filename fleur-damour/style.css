@@ -1,0 +1,336 @@
+
+
+/* navbar design - horizontal spacing */
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+     
+}
+
+.navbar-brand {
+    padding-left: 50px; 
+    height: 100px;
+}
+
+.navbar-nav {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-link {
+    font-family: "Cinzel";
+    color: black !important;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+/* font family for header text */
+.cinzel {
+    font-family: "Cinzel";
+}
+
+/* margin and design for the mission statement text + CTA */
+
+.header {
+    display: flex;
+    background-color: #EBCDD1;
+    margin: 0; 
+    padding: 0;
+}
+
+.col.col2 {
+    padding-right: 0;
+}
+
+.col2 {
+    width: 50%;
+    text-align: left;
+    padding-top: 125px; 
+    padding-right: 0; 
+    padding-left: 0;
+
+}
+
+.col1 {
+    width: 50%;
+}
+
+.col1 img {
+    width: 100%; 
+}
+
+.col2 h1 {
+    margin-left: 50px;
+    margin-right: 100px;
+    font-size: 7vh;
+    padding: 0;
+}
+
+.col.col1 {
+    padding: 0;
+    
+}
+
+
+
+
+
+.home-button {
+    background-color: #A76071;
+    border: none;
+    color: white;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px !important;
+    border-radius: 40px !important;
+    margin-left: 50px; 
+    margin-top: 15px;
+}
+
+/*about us paragraph text */
+p {
+    font-family: "Lato" !important;
+}
+
+
+.home-paragraph {
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 50px; 
+    padding-bottom: 10px; 
+    text-align: center;
+}
+
+/* extra carousel changes - easier to see in this stylesheet versus the long stylesheet for the carousel*/
+.featured-carousel h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: Cinzel !important;
+    font-size: 30px !important;
+    margin: 0;
+}
+
+.carousel {
+    padding-top: 40px;
+
+} 
+
+
+.carousel-button {
+    background-color: #A76071;
+    font-family: "Cinzel";
+    color: white;
+    border-radius: 40px !important;
+    border: none;
+    padding: 10px 20px;
+
+}
+
+/* contact form */
+.form-group h6 {
+    font-family: "Cinzel";
+    color: white;
+}
+
+
+/* instagram grid design */
+.instagram h2 {
+    font-family: "Cinzel";
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.instagram {
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.instagram img {
+    height: 75%;
+}
+
+.instagram > .row {
+    margin-left: 175px;
+    margin-right: 175px;
+
+}
+
+/* footer */
+footer {
+    background-color: #EBCDD1;
+    align-content: center;
+}
+
+footer .btn {
+    background-color:#A76071;
+    color: white;
+    padding: 10px 10px;
+    font-family: "Cinzel";
+}
+
+footer h4 {
+    font-family: "Cinzel";
+}
+
+footer .form-group {
+    margin-bottom: 20px;
+}
+
+/* media queries */
+
+/* nav bar */
+@media screen and (max-width: 575px) {
+    .navbar-brand {
+        padding: 0;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* header image + text */
+@media screen and (max-width: 575px) {
+    .header {
+        display: flex; 
+        flex-direction: column;
+    }
+    
+    .col2 {
+        width: 100%;
+        order: 1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .col1 {
+        order: 2;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .col.col1 {
+        padding: 0;
+        
+    }
+
+    .col2 h1 {
+        padding: 30px; 
+        margin: 0; 
+        font-size: 4vh;
+    }
+
+    .home-button {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 20px;
+        
+        display: inline-block;
+        font-size: 20px !important;
+        border-radius: 40px !important;
+        
+        
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+    .header {
+        display: flex; 
+        flex-direction: column;
+    }
+    
+    .col2 {
+        width: 100%;
+        order: 1;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        margin: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .col1 {
+        order: 2;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .col.col1 {
+        padding: 0;
+        
+    }
+
+    .col2 h1 {
+        padding: 50px; 
+        margin: 0; 
+        font-size: 4vh;
+    }
+
+    .home-button {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 30px;
+        
+        display: inline-block;
+        font-size: 20px !important;
+        border-radius: 40px !important;
+    }    
+}
+
+  /* home paragraph text */
+  @media screen and (max-width: 575px) {
+
+  .home-paragraph {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+    }   
+}
+
+@media screen and (max-width: 575px) {
+    .wrapper {
+        background: none !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .instagram > .row {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .instagram img {
+        padding-bottom: 15px;
+    }
+
+    .row2 img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    footer .form-group {
+        margin-bottom: 10px;
+    }
+
+}
